@@ -1,0 +1,386 @@
+
+{box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.insh a {
+  color:#b1d8fa;
+}
+
+
+
+.insh {
+  position:absolute;
+  top:770px;
+  left:580px;
+  color:white;
+
+}
+
+.videosss {
+  z-index:1;
+  position:absolute;
+  top:750px;
+  left:25px;
+  
+}
+
+.squares h2 {
+  text-align: center;
+  color:white;
+}
+
+.squares h3 {
+  text-align: center;
+  color:white;
+  font-size:23px;
+}
+
+.squares p {
+  text-align: center;
+  font-size:19px;
+  padding-left:50px;
+  padding-right:50px;
+  color:white;
+}
+
+
+.squares {
+  width: 1030px; 
+  height: 880px; 
+background: linear-gradient(5deg,rgba(40, 47, 97, 1) 0%, rgba(91, 165, 194, 1) 100%);
+  left:1px; 
+  position:absolute;
+  margin-right:5px;
+  border-radius:15px;
+  margin-top:15px;
+  margin-left:10px
+}
+
+
+
+.paytina {
+  position:absolute;
+  z-index:1;
+  top:190px;
+  right:904px;
+}
+
+.znak {
+background: linear-gradient(0deg,rgba(117, 46, 46, 1) 0%, rgba(212, 85, 85, 1) 100%);
+  border-radius:15px;
+  padding:5px;
+  position:absolute;
+  border:solid 2px lightblue;
+  box-shadow:5px 5px 10px black;
+  margin:10px;
+}
+
+.znaks {
+background: linear-gradient(0deg,rgba(128, 34, 120, 1) 0%, rgba(232, 111, 210, 1) 100%);
+  border-radius:15px;
+  padding:5px;
+  position:absolute;
+  border:solid 2px lightblue;
+  box-shadow:5px 5px 10px black;
+  left:300px;
+  top:0%;
+}
+
+
+.znakss {
+background: linear-gradient(5deg,rgba(41, 52, 150, 1) 0%, rgba(43, 195, 255, 1) 100%);
+  border-radius:15px;
+  padding:5px;
+  position:absolute;
+  border:solid 2px lightblue;
+  box-shadow:5px 5px 10px black;
+  left:310px;
+  top:0%;
+  
+}
+
+
+.mish {
+  position: absolute;
+    z-index: 1;  
+    right: 820px;
+    top: 215px;
+
+}
+
+.square h2 {
+  text-align: center;
+}
+
+.square p {
+  text-align: center;
+  font-size:19px;
+}
+
+.card {
+  background: linear-gradient(90deg,rgba(255, 187, 0, 1) 0%, rgba(255, 208, 138, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  margin-left:50px;
+  margin-top:30px;
+  padding:120px;
+  position:absolute;
+  border:solid 2px #BD8100;
+  box-shadow:5px 5px 10px black;
+}
+
+.card {
+  padding: 5px;
+  border-radius: 10px;
+}
+.card p {
+  text-align: center;
+  font-size:17px;
+}
+
+.cards {
+  background: linear-gradient(90deg,rgba(255, 187, 0, 1) 0%, rgba(255, 208, 138, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  margin-left:610px;
+  margin-top:30px;
+  padding:120px;
+  position:absolute;
+  border:solid 2px #BD8100;
+  box-shadow:5px 5px 10px black;
+}
+
+.cards {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.cards p {
+  text-align: center;
+  font-size:17px;
+}
+
+
+
+.cardss {
+  background: linear-gradient(90deg,rgba(255, 187, 0, 1) 0%, rgba(255, 208, 138, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  margin-left:330px;
+  margin-top:30px;
+  padding:120px;
+  position:absolute;
+  border:solid 2px #BD8100;
+  box-shadow:5px 5px 10px black;
+}
+
+.cardss {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.cardss p {
+  text-align: center;
+  font-size:17px;
+}
+
+.muzika {
+position: absolute;
+top: 530px;
+right: 700px;
+
+
+}
+
+.square {
+  width: 1050px; 
+  height: 880px; 
+  background: linear-gradient(0deg,rgba(217, 152, 33, 1) 0%, rgba(255, 211, 115, 1) 79%);
+  right:5px; 
+  position:absolute;
+  margin-right:5px;
+  border-radius:15px;
+  margin-top:15px;
+  
+  
+  
+}
+main h2 {
+  font-size:27px;
+  text-align:center;
+}
+
+.derevo {
+  position:absolute;
+  right:0%;
+  top:110px;
+  z-index: 1;  
+}
+
+.pop {
+  left: 320px;
+  top: 166px;
+  position: absolute;
+  
+}
+
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 152, 233, 1) 100%);
+  padding: 5px 10px;
+}
+
+.wrap-logo {
+  display: flex;
+  align-items: center;
+ 
+}
+
+header a {
+  color: #212121;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  border-radius: 4px;
+}
+
+header a.logo img {
+  height: 120px;   
+  width: auto;
+}
+
+  header a.logo {
+  display: flex;              
+  align-items: center;        
+  gap: 10 px;                  
+  font-size: 75px;
+  font-family: "Parisienne", cursive;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  color: #212121;
+}
+
+.site-name{
+  margin-top: 30px;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+  }
+
+.menu > a:hover {
+    background: rgba(238, 174, 202, 1);
+  }
+
+.submenu {
+    position: absolute;
+    top: 120%; /* немного ниже основной ссылки */
+    left: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    transform: translateY(10px);
+    pointer-events: none; /* чтобы не мешал */
+    transition: all 0.5s ease;
+    min-width: 150px;
+    padding: 10px;
+    z-index:1;
+  }
+
+.submenu a {
+    display: block;
+    padding: 6px 10px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 4px;
+    transition: background 0.2s;
+    
+  }
+
+.submenu a:hover {
+    background: rgba(238, 174, 202, 1); 
+  }
+
+.menu:hover .submenu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+header a:hover {
+  background-color: rgba(238, 174, 202, 1);
+  color: #212121;
+}
+
+header a.active {
+  background-color: rgba(238, 174, 202, 1);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  }
+
+.squaress h3 {
+  font-size:25px;
+}
+
+.squaress h2 {
+  position:absolute;
+  bottom:40px;
+}
+
+.inst {
+  position: absolute;
+  z-index:1;
+  left:315px;
+  bottom:50px;
+}
+
+.tiktoki {
+  position:absolute;
+  left:270px;
+  bottom:50px;
+}
+
+.squaress p {
+  position:absolute;
+  bottom:0%;
+}
+
+.squaress {
+  position:absolute;
+  background-color: grey;
+  height:150px;
+  top:1100px;
+  width:2090px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+background: linear-gradient(90deg,rgba(165, 185, 230, 1) 0%, rgba(227, 159, 159, 1) 50%, rgba(230, 206, 170, 1) 100%);
+  padding: 20px 10px;
+}
+
+
+
+  .pronas {
+  
+  padding-left: 10px;
+  top:1090px;
+  position:absolute;
+  left:1090px;
+}
+
+.pronas p {
+  font-size: 19px;
+}
+
